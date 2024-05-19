@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b6d5ea;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+section {
+  padding: 2rem 0;
+  text-align: center
+}
+
+h1 {
+  margin-bottom: 1rem;
+  text-align: center
+}
+
+h2 {
+  margin-bottom: 1rem;
+  text-align: center
+}
+
+.risotto {
+  max-width: 800%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+.reviews-background {
+  background-image: url('https://i.pinimg.com/736x/3e/1e/e6/3e1ee61a7aa7b5c4f0fb0c94b8987d2c.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}    
+
+.container1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+p4 {
+  font-family: georgia;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0; 
+  padding: 5px; 
+  border-radius: 5px;
+  background-color: #b6d5ea;
+}
+
+p5 {
+  font-family: georgia;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0; 
+  padding: 5px; 
+  border-radius: 5px;
+  background-color: #b6d5ea;
+}
+
+.about-background {
+  background-image: url('https://img.freepik.com/premium-photo/summer-doodles-seamless-pattern-white-background_242270-625.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
